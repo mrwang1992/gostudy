@@ -31,7 +31,7 @@ func NewPerson(name string, address string) *Person {
 
 func PrintPersonThread(person *Person, id int) {
 	for {
-		// 官方可以无法暴露 goroutine id 使用外部id代入
+		// 官方刻意无法暴露 goroutine id 使用外部id代入
 		fmt.Printf("Goroutine id: %02d => %s", id, person.ToString())
 	}
 }
