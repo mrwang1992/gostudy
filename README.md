@@ -4,6 +4,8 @@
 - 《图解java多线程》 用golang实现
     
     .  single_threaded_execution 
+    .  immutable
+    .  guarded_suspension
 
 ## gopl
 - 《go 程序设计语言》书本代码
